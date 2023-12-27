@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import React  from 'react';
 import './LoginSignup.css';
 import fordleIcon from '../Assests/Fordle amblem.png';
 
@@ -72,7 +73,7 @@ const LoginSignup = () => {
           className={action === 'Giriş Yap/Oyna' ? 'submit gray' : 'submit'}
           onClick={() => handleActionChange('Kaydol')}
         >
-          Kaydol
+           Kaydol
         </div>
       </div>
     </div>
